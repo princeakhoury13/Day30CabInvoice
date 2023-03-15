@@ -31,7 +31,14 @@
                 totalFare += fare;
             }
 
+            int totalNumFares = numRides;
+            double averageFare = totalFare / numRides;
+
+
+            Console.WriteLine("--------------------------------------------------------------------");
+            Console.WriteLine("Total number of fares: " + totalNumFares);
             Console.WriteLine("Total fare for all rides: Rs. " + totalFare);
+            Console.WriteLine("Average fare: Rs. " + averageFare);
         }
     }
 }
